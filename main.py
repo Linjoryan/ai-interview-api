@@ -189,5 +189,3 @@ async def predict(features: StudentFeatures):
             detail=f"An error occurred during prediction: {str(e)}"
         )
 
-
-# Run with: uvicorn filename:app --reload

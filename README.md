@@ -41,28 +41,12 @@ venv\Scripts\activate
 ### 3. Install Dependencies
 
 ```bash
-pip install fastapi uvicorn pydantic numpy scikit-learn
-```
-
-Or create a `requirements.txt` file with:
-
-```
-fastapi==0.104.1
-uvicorn==0.24.0
-pydantic==2.5.0
-numpy==1.24.3
-scikit-learn==1.3.2
-```
-
-Then install:
-
-```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Place Your Model File
 
-Make sure your trained model file `model.pkl` is in the same directory as `main.py`:
+Make sure the trained model file `model.pkl` is in the same directory as `main.py`:
 
 ```
 ai interview/
